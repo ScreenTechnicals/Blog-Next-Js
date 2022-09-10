@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { supabase } from '../utils/supabaseClient';
 
-const login = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   // console.log(email);
   const handleSubmint = async(e) =>{
@@ -24,4 +24,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
